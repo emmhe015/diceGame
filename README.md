@@ -12,4 +12,4 @@ This is a game run by simple JavaScript. The user reload the page to see which p
 
 ### Testing
 ### Deployment
-### Reference
+### Credits
