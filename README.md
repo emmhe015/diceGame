@@ -11,5 +11,10 @@ This is a game run by simple JavaScript. The user reload the page to see which p
 - **Player 1 & Player 2**, indicates which dice belongs to who.  
 
 ### Testing
+When I first inserted the images, they didn't show at the page. I fixed it by adding "assets" in the variabel randomImageSource.
+
+- Html test, [v3 validator](https://validator.w3.org/nu/) got following result;
+
+
 ### Deployment
 ### Credits
