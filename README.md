@@ -15,6 +15,18 @@ This is a game run by simple JavaScript. The user reload the page to see which p
 ### Testing
 When I first inserted the images, they didn't show at the page. I fixed it by adding "assets" in the variabel randomImageSource.
 
+### Functionality Testing
+The following table summarizes the testing of the main functionalities of the Dice Game:
+
+| Functionality             | Expected Outcome                                | Result          |
+|---------------------------|--------------------------------------------------|-----------------|
+| Dice roll for Player 1    | Dice image updates to a random number            | Pass            |
+| Dice roll for Player 2    | Dice image updates to a random number            | Pass            |
+| Score update for Player 1 | Player 1's score increases by the rolled number  | Pass            |
+| Score update for Player 2 | Player 2's score increases by the rolled number  | Pass            |
+| Header update             | Displays the correct game status                 | Pass            |
+
+
 - **HTML test**, [v3 validator](https://validator.w3.org/nu/) got following result;
 ![html testing](assets/images/htmlTestingError.png)
 Fixed the errors and got this result;
