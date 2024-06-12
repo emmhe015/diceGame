@@ -19,6 +19,14 @@ function rollDice(player) {
 
 function updateWinner() {
     const h1 = document.querySelector("h1");
+    if (score1 > score2) {
+        h1.textContent = "Player 1 is winning!";
+    } else if (score2 > score1) {
+        h1.textContent = "Player 2 is winning!";
+    } else {
+        h1.textContent = "It's a tie!";
+    }
+}
 
 
 document.getElementById("rollPlayer1").addEventListener("click", function() {
