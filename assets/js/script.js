@@ -1,3 +1,6 @@
+let score1 = 0;
+let score2 = 0;
+
 function rollDice(player) {
     var randomNumber = Math.floor(Math.random() * 6) + 1;
     var randomDiceImage = "dice" + randomNumber + ".png";
