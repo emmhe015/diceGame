@@ -1,11 +1,13 @@
 let score1 = 0;
 let score2 = 0;
 
+// A function to make random dice.png appear, numbers between 1-6
 function rollDice(player) {
     var randomNumber = Math.floor(Math.random() * 6) + 1;
     var randomDiceImage = "dice" + randomNumber + ".png";
     var randomImageSource = "assets/images/" + randomDiceImage;
 
+// Updates the score to each player 
     if (player === 1) {
         document.querySelector(".img1").setAttribute("src", randomImageSource);
         score1 += randomNumber;
@@ -17,7 +19,7 @@ function rollDice(player) {
     }
     updateWinner();
 }
-
+// Updates the h1 depending on which player currently has the highest score
 function updateWinner() {
     const h1 = document.querySelector("h1");
     if (score1 > score2) {
@@ -29,7 +31,7 @@ function updateWinner() {
     }
 }
 
-
+// Makes the dices to roll when clicking the button
 document.getElementById("rollPlayer1").addEventListener("click", function() {
     rollDice(1);
 });
