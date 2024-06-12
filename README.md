@@ -9,10 +9,10 @@
 This Dice Game is a simple web-based game driven by JavaScript. Two players can take turns rolling a dice, and the score for each player is tracked. The game provides a visual representation of the dice rolls and updates the scores dynamically.
 
 
-### Content
-- **Header**, depending on which player wins, the text in h1 changes.Run by JavaScript. 
-- **Images**, run by JavaScript. When the user reload the page, a random dice image appears.
-- **Player 1 & Player 2**, indicates which dice belongs to who.  
+## Features
+- **Header:** The header displays a dynamic message indicating which player is currently winning or if there is a tie. This is updated in real-time based on the scores.
+- **Images:** Each player has a dice image that changes to reflect the result of their dice roll. The images are updated dynamically through JavaScript.
+- **Player Labels:** Clear labels indicate which dice belongs to Player 1 and Player 2.  
 
 ### Testing
 When I first inserted the images, they didn't show at the page. I fixed it by adding "assets" in the variabel randomImageSource.
