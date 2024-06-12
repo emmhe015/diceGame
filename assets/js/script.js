@@ -16,6 +16,11 @@ function rollDice(player) {
         document.getElementById("score2").textContent = score2;
     }
 }
+
+function updateWinner() {
+    const h1 = document.querySelector("h1");
+
+
 document.getElementById("rollPlayer1").addEventListener("click", function() {
     rollDice(1);
 });
