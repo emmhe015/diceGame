@@ -14,6 +14,10 @@ This Dice Game is a simple web-based game driven by JavaScript. Two players can 
 - **Images:** Each player has a dice image that changes to reflect the result of their dice roll. The images are updated dynamically through JavaScript.
 - **Player Labels:** Clear labels indicate which dice belongs to Player 1 and Player 2.  
 
+## Usage
+To play the game, simply click the "Roll for Player 1" or "Roll for Player 2" buttons. The dice will roll, and the respective player's score will be updated accordingly. The header will display the current game status, indicating which player is in the lead.
+
+
 ### Testing
 When I first inserted the images, they didn't show at the page. I fixed it by adding "assets" in the variabel randomImageSource.
 
