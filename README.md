@@ -56,12 +56,11 @@ got this result;
 - **Lighthouse testing**
 ![Lighthouse test](assets/images/lighthouseTesting.png)
 
-### Deployment
-The site was deployed to GitHub pages. The steps to deploy are as follows:
-- In the GitHub repository, navigate to the Settings tab
-- From the source section drop-down menu, select the Master Branch
-- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-
+## Deployment
+The site was deployed to GitHub Pages. The steps to deploy are as follows:
+1. In the GitHub repository, navigate to the **Settings** tab.
+2. From the source section drop-down menu, select the **Master Branch**.
+3. Once the master branch has been selected, the page will automatically refresh with a detailed ribbon display to indicate the successful deployment.
 ### Credits
 - The structure to the overall code and the dice images are from a course on [Udemy](https://www.udemy.com/course/the-complete-web-development-bootcamp/?couponCode=KEEPLEARNING)
 - The text from the Deployment section is from [This README example](https://github.com/Code-Institute-Solutions/readme-love-maths/blob/master/README.md)
