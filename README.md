@@ -1,7 +1,9 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+
 
 # READ ME
 ### Dice game
+
+![Dice game](assets/images/screenshotDiceGame.png)
 
 This is a game run by simple JavaScript. The user reload the page to see which player wins. 
 
