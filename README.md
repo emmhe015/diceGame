@@ -5,7 +5,9 @@
 
 ![Dice game](assets/images/screenshotDiceGame.png)
 
-This is a game run by simple JavaScript. The user reload the page to see which player wins. 
+## Overview
+This Dice Game is a simple web-based game driven by JavaScript. Two players can take turns rolling a dice, and the score for each player is tracked. The game provides a visual representation of the dice rolls and updates the scores dynamically.
+
 
 ### Content
 - **Header**, depending on which player wins, the text in h1 changes.Run by JavaScript. 
