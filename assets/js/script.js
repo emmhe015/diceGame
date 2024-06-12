@@ -15,6 +15,7 @@ function rollDice(player) {
         score2 += randomNumber;
         document.getElementById("score2").textContent = score2;
     }
+    updateWinner();
 }
 
 function updateWinner() {
