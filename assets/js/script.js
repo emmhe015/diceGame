@@ -1,11 +1,18 @@
 function rollDice(player) {
-var randomNumber = Math.floor(Math.random() * 6) +1;
-var randomDiceImage = "dice" + randomNumber + ".png";
-var randomImageSource = "assets/images/" + randomDiceImage;
+    var randomNumber = Math.floor(Math.random() * 6) + 1;
+    var randomDiceImage = "dice" + randomNumber + ".png";
+    var randomImageSource = "assets/images/" + randomDiceImage;
 
-if (player === 1) {
-    document.querySelector(".img1").setAttribute("src", randomImageSource);
-} else if (player === 2) {
-    document.querySelector(".img2").setAttribute("src", randomImageSource);
+    if (player === 1) {
+        document.querySelector(".img1").setAttribute("src", randomImageSource);
+    } else if (player === 2) {
+        document.querySelector(".img2").setAttribute("src", randomImageSource);
+    }
 }
-}
+document.getElementById("rollPlayer1").addEventListener("click", function() {
+    rollDice(1);
+});
+
+document.getElementById("rollPlayer2").addEventListener("click", function() {
+    rollDice(2);
+});
